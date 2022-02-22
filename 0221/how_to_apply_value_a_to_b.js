@@ -3,12 +3,11 @@
 // Test
 // 함수 print에서 함수 value_creator의 값을 출력할 수 있는 방법을 4가지 이상 만들어보세요.
 function print(_v) {
-	if (typeof _v === "string")
-		return console.log(`-=-=-=-=-= Print Value : ${_v}`);
+	if (typeof _v === "string") return console.log(`-=-=-=-=-= Print Value : ${_v}`);
 	console.log("-=-=-=-=-= Print Value : ", _v);
 }
 function value_creator() {
-	let value = 0;
+	let value = 1;
 	return {
 		get: function () {
 			console.count("get");
