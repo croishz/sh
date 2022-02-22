@@ -7,7 +7,7 @@ function print(_v) {
 	console.log("-=-=-=-=-= Print Value : ", _v);
 }
 function value_creator() {
-	let value = 1;
+	let value = 0;
 	return {
 		get: function () {
 			console.count("get");
